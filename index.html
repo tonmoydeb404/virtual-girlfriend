@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Girlfriend</title>
+
+    <!-- GGOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="content py-5 bg-danger">
+        <img src="./img/avatar.jpg" alt="image" class="content-img">
+        <h1 class="content-text mt-4 text-center px-2">Touch Me</h1>
+    </div>
+
+    <button class="btn settings-btn">
+        <i class="bi bi-gear"></i>
+    </button>
+
+    <section class="settings p-4 hide">
+        <h2 class="settings-title text-center mb-4">Settings</h2>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+            <input type="text" class="form-control settings-input your-name-input" data-target="yourName" placeholder="Your Name">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text"><i class="bi bi-suit-heart"></i></span>
+            <input type="text" class="form-control settings-input her-name-input" data-target="herName" placeholder="Her Name">
+        </div>
+
+        <div class="form-check form-switch mb-5">
+          <input class="form-check-input talkBackSwitch" type="checkbox" id="talkBackSwitch">
+          <label class="form-check-label" for="talkBackSwitch">Talk Back</label>
+        </div>
+
+
+        <!-- NAVBAR -->
+        <ul class="nav nav-pills nav-justified mb-3 settings-nav" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active settings-nav-item" id="pills-Data-tab" data-bs-toggle="pill" data-bs-target="#pills-Data" type="button" role="tab" aria-controls="pills-Data" aria-selected="true">Deafault</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link settings-nav-item" id="pills-Custom-tab" data-bs-toggle="pill" data-bs-target="#pills-Custom" type="button" role="tab" aria-controls="pills-Custom" aria-selected="false">Custom</button>
+            </li>
+        </ul>
+        <!-- NAVBAR CONTENT -->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-Data" role="tabpanel" aria-labelledby="pills-Data-tab">
+                <div class="table-responsive">
+                    <table class="table data-tab">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Introduction</th>
+                          </tr>
+                        </thead>
+                        
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Hello</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hey</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class=" tab-pane fade" id="pills-Custom" role="tabpanel" aria-labelledby="pills-Custom-tab">
+                <div class="form-group custom mb-3">
+                    <input type="text" class="form-control mb-2 custom-question-input" placeholder="Question" />
+                    <input type="text" class="form-control mb-3 custom-ans-input" placeholder="Answer" />
+                    <div class="d-grid mb-5">
+                        <button class="btn btn-danger add-btn">Add New</button>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead><tr><th scope="col"><i class="bi bi-star"></i></th><th scope="col">Questions</th><th scope="col">Answers</th></tr></thead>
+                        <tbody class="custom-tab"></tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    
+    <a href="https://github.com/tdtonmoydeb" target="_blank" class="text-center bg-dark text-light d-block p-1 link text-decoration-none">
+      DevTom
+    </a>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- CUSTOM JS -->
+    <script src="./app.js"></script>
+</body>
+</html>
