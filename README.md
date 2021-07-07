@@ -1,4 +1,4 @@
 # Virtual Girlfriend
 # A simple example of JavaScript Speech Recognition. 
  
-💻live preview : https://tdtonmoydeb.github.io/virtual-girlfriend/
+💻live preview : https://tonmoy-deb.github.io/virtual-girlfriend/
